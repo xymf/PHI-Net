@@ -1,11 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-"""
-Uncertainty-Controlled Spatial Perturbation (UCSP)
-改进点：
-1. GVA2: 优化网络结构，并在训练流中加入了 Fidelity Loss (保真度损失) 以防止语义漂移。
-2. UCSP (AdaptiveFrequencyPerturbation): 移除了相位随机扰动，仅保留幅值扰动，以保护医学图像的关键解剖结构。
-"""
+ 
 
 import argparse
 import logging
